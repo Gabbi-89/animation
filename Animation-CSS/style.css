@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  perspective: 400px;
+}
+body main {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin 20s linear infinite;
+  transform-style: preserve-3d;
+}
+@keyframes spin {
+  from {
+    transform: rotateX(0) rotateY(0);
+  }
+  to {
+    transform: rotateX(180deg) rotateY(360deg);
+  }
+}
+body main > aside {
+  position: absolute;
+  border-radius: 999rem;
+  border: 2px solid #ec5494;
+  width: 400px;
+  height: 400px;
+  animation: swell 2s ease-in-out infinite;
+}
+body main > aside:nth-child(1) {
+  width: 375px;
+  height: 375px;
+  animation-delay: 100ms;
+}
+body main > aside:nth-child(2) {
+  width: 350px;
+  height: 350px;
+  animation-delay: 200ms;
+}
+body main > aside:nth-child(3) {
+  width: 325px;
+  height: 325px;
+  animation-delay: 300ms;
+}
+body main > aside:nth-child(4) {
+  width: 300px;
+  height: 300px;
+  animation-delay: 400ms;
+}
+body main > aside:nth-child(5) {
+  width: 275px;
+  height: 275px;
+  animation-delay: 500ms;
+}
+body main > aside:nth-child(6) {
+  width: 250px;
+  height: 250px;
+  animation-delay: 600ms;
+}
+body main > aside:nth-child(7) {
+  width: 225px;
+  height: 225px;
+  animation-delay: 700ms;
+}
+body main > aside:nth-child(8) {
+  width: 200px;
+  height: 200px;
+  animation-delay: 800ms;
+}
+body main > aside:nth-child(9) {
+  width: 175px;
+  height: 175px;
+  animation-delay: 900ms;
+}
+body main > aside:nth-child(10) {
+  width: 150px;
+  height: 150px;
+  animation-delay: 1000ms;
+}
+body main > aside:nth-child(11) {
+  width: 125px;
+  height: 125px;
+  animation-delay: 1100ms;
+}
+body main > aside:nth-child(12) {
+  width: 100px;
+  height: 100px;
+  animation-delay: 1200ms;
+}
+body main > aside:nth-child(13) {
+  width: 75px;
+  height: 75px;
+  animation-delay: 1300ms;
+}
+body main > aside:nth-child(14) {
+  width: 50px;
+  height: 50px;
+  animation-delay: 1400ms;
+}
+body main > aside:nth-child(15) {
+  width: 25px;
+  height: 25px;
+  animation-delay: 1500ms;
+}
+body main > aside:nth-child(16) {
+  width: 0px;
+  height: 0px;
+  animation-delay: 1600ms;
+}
+body main > aside:nth-child(17) {
+  width: -25px;
+  height: -25px;
+  animation-delay: 1700ms;
+}
+body main > aside:nth-child(18) {
+  width: -50px;
+  height: -50px;
+  animation-delay: 1800ms;
+}
+body main > aside:nth-child(19) {
+  width: -75px;
+  height: -75px;
+  animation-delay: 1900ms;
+}
+body main > aside:nth-child(20) {
+  width: -100px;
+  height: -100px;
+  animation-delay: 2000ms;
+}
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0, 0, 0px);
+  }
+  50% {
+    transform: translate3d(0, 0, 40px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
